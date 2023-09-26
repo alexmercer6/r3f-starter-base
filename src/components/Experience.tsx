@@ -1,6 +1,6 @@
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls } from '@react-three/drei';
 
-export const Experience = () => {
+const Experience = () => {
   return (
     <>
       <OrbitControls />
@@ -11,3 +11,5 @@ export const Experience = () => {
     </>
   );
 };
+
+export default Experience;
